@@ -1,6 +1,6 @@
 import './style.css';
-import statusCheck from 'status';
-import appdata from 'appData';
+import statusCheck from './status';
+import appdata from './appData';
 
 const tasksList = document.querySelector('#container');
 const addBtn = document.querySelector('.add-btn');
